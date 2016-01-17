@@ -1,0 +1,592 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Arti",
+				"ArticleEntry"
+			],
+			[
+				"article",
+				"article_entry"
+			],
+			[
+				"tex",
+				"text_field"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"req",
+				"require_admin"
+			],
+			[
+				"be",
+				"before_action"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"navb",
+				"navbar-toggle"
+			],
+			[
+				"nav",
+				"navbar-default"
+			],
+			[
+				"navbar",
+				"navbar-default"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"na",
+				"navbar-toggle"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"creat",
+				"created"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"mess",
+				"message_params"
+			],
+			[
+				"Me",
+				"Messages"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"simple",
+				"simple_cms_test"
+			],
+			[
+				"Sig",
+				"SignUpForm"
+			],
+			[
+				"eror_",
+				"error_train"
+			],
+			[
+				"er",
+				"error_train"
+			],
+			[
+				"la",
+				"lambda_vec"
+			],
+			[
+				"lam",
+				"lambda"
+			],
+			[
+				"y",
+				"yval"
+			],
+			[
+				"x",
+				"Xval"
+			],
+			[
+				"l",
+				"linearRegCostFunction"
+			],
+			[
+				"erro",
+				"error_val"
+			],
+			[
+				"th",
+				"theta"
+			],
+			[
+				"Theta2",
+				"Theta2_grad"
+			],
+			[
+				"The",
+				"Theta2_grad"
+			],
+			[
+				"Theta",
+				"Theta1_grad"
+			],
+			[
+				"n",
+				"num_labels"
+			],
+			[
+				"Data",
+				"DatagramPacket"
+			],
+			[
+				"Da",
+				"DatagramPacket"
+			],
+			[
+				"send",
+				"send_data"
+			],
+			[
+				"St",
+				"StringBuilder"
+			],
+			[
+				"rec",
+				"rec_data"
+			],
+			[
+				"D",
+				"DatagramPacket"
+			],
+			[
+				"Server",
+				"ServerSocket"
+			],
+			[
+				"P",
+				"PhysAddr"
+			],
+			[
+				"bit",
+				"bitVA"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"user",
+				"usernameRegex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"tag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"linkt",
+				"Snippet: link_to (path)"
+			],
+			[
+				"link",
+				"Snippet: link_to (path)"
+			],
+			[
+				"LINK",
+				"Snippet: link_to (path)"
+			],
+			[
+				"html tag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"lin",
+				"Snippet: link_to (path)"
+			],
+			[
+				"html p",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"form",
+				"Snippet: form_for"
+			],
+			[
+				"section",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"img tag",
+				"Snippet: image_submit_tag"
+			],
+			[
+				"syntax",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Snippet: javascript_include_tag"
+			],
+			[
+				"SYNTA",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntax: css",
+				"Set Syntax: CSS"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"style",
+				"Snippet: stylesheet_link_tag"
+			],
+			[
+				"html",
+				"Snippet: HTML - Dummy text"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			],
+			[
+				"snippet",
+				"Snippet: form_for submit"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 500.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Ishaan/College work/Sem 6/Project/Site/config/database.yml",
+		"/D/Ishaan/Rails/Article/Gemfile",
+		"/D/Ishaan/Rails/Article/.env",
+		"/D/Ishaan/Coding/Treblemaker/Help.html",
+		"/D/Ishaan/Rails/passenger-ruby-rails-demo/Gemfile",
+		"/D/Ishaan/Rails/myapp/Gemfile",
+		"/D/Ishaan/Rails/myapp/db/seeds.rb",
+		"/D/Ishaan/Rails/mysql2postgres/config/default.database.yml",
+		"/D/Ishaan/Rails/Article/app/views/layouts/application.html.erb",
+		"/D/Ishaan/Rails/Article/config/routes.rb",
+		"/D/Ishaan/Rails/Article/db/migrate/20151215050948_create_article_entries.rb",
+		"/D/Ishaan/Rails/Article/app/controllers/application_controller.rb",
+		"/D/Ishaan/Rails/Article/app/views/article_entries/new.html.erb",
+		"/D/Ishaan/Rails/Article/app/views/article_entries/_form.html.erb",
+		"/D/Ishaan/Rails/Article/app/views/article_entries/edit.html.erb",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/clean-blog.css",
+		"/D/Ishaan/Rails/Article/app/views/users/new.html.erb",
+		"/D/Ishaan/Rails/Article/app/models/contact.rb",
+		"/D/Ishaan/Rails/Article/app/views/contacts/new.html.erb",
+		"/D/Ishaan/Rails/Article/app/views/contacts/create.html.erb",
+		"/D/Ishaan/Rails/Article/app/controllers/contacts_controller.rb",
+		"/D/Ishaan/Rails/Article/app/views/users/_form.html.erb",
+		"/D/Ishaan/Rails/Article/config/initializers/assets.rb",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/application.css.sass",
+		"/D/Ishaan/Rails/Article/config/initializers/simple_form.rb",
+		"/D/Ishaan/Coding/Style Templates/startbootstrap-clean-blog-1.0.4/startbootstrap-clean-blog-1.0.4/contact.html",
+		"/D/Ishaan/Rails/Article/app/models/user.rb",
+		"/D/Ishaan/Rails/Article/app/controllers/users_controller.rb",
+		"/D/Ishaan/Rails/Article/app/views/article_entries/show.html.erb",
+		"/D/Ishaan/Rails/Article/app/controllers/about_controller.rb",
+		"/D/Ishaan/Rails/Article/app/views/article_entries/index.html.erb",
+		"/D/Ishaan/Rails/Article/app/controllers/article_entries_controller.rb",
+		"/D/Ishaan/Rails/Article/db/seeds.rb",
+		"/D/Ishaan/Rails/Article/app/views/users/show.json.jbuilder",
+		"/D/Ishaan/Rails/Article/app/views/users/show.html.erb",
+		"/D/Ishaan/Rails/Article/app/views/users/index.html.erb",
+		"/D/Ishaan/Rails/Article/app/views/admin/login.html.erb",
+		"/D/Ishaan/Rails/Article/app/controllers/admin_controller.rb",
+		"/D/Ishaan/College work/My project/WT/Final Project/News.html",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/component.css",
+		"/D/Ishaan/Rails/Article/app/assets/javascripts/application.js",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/demo.css",
+		"/D/Ishaan/Coding/Style Templates/ArticleIntroEffects/ArticleIntroEffects/index2.html",
+		"/D/Ishaan/College work/My project/WT/Final Project/Home.html",
+		"/D/Ishaan/Rails/Article/app/assets/javascripts/article_show.js",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/clean-blog.less",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/scaffolds.scss",
+		"/D/Ishaan/Rails/Article/app/assets/javascripts/demo.css",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/clean-blog.min.css",
+		"/D/Ishaan/Rails/Article/app/assets/javascripts/article_entries.coffee",
+		"/D/Ishaan/Rails/Article/app/models/article_entry.rb",
+		"/D/Ishaan/Rails/Article/db/schema.rb",
+		"/D/Ishaan/Coding/startbootstrap-clean-blog-1.0.4/startbootstrap-clean-blog-1.0.4/index.html",
+		"/D/Ishaan/Rails/Article/app/assets/stylesheets/application.css",
+		"/D/Ishaan/Rails/Article/config/database.yml",
+		"/D/Ishaan/Rails/Blog/Gemfile",
+		"/D/Ishaan/Rails/Blog/Gemfile.lock",
+		"/D/Ishaan/Rails/Article/Gemfile.lock",
+		"/D/Ishaan/Rails/Article/db/migrate/20151215045548_create_users.rb",
+		"/D/Ishaan/Rails/Blog/app/controllers/application_controller.rb",
+		"/D/Ishaan/Rails/Blog/app/models/user.rb",
+		"/D/Ishaan/Rails/Blog/app/views/layouts/application.html.erb",
+		"/D/Ishaan/Rails/Blog/app/controllers/messages_controller.rb",
+		"/D/Ishaan/Rails/Blog/app/views/sessions/new.html.erb",
+		"/D/Ishaan/Rails/Blog/app/controllers/sessions_controller.rb",
+		"/D/Ishaan/Rails/Blog/app/views/users/new.html.erb",
+		"/D/Ishaan/Rails/Blog/app/assets/stylesheets/application.css",
+		"/D/Ishaan/Rails/Blog/app/controllers/users_controller.rb",
+		"/D/Ishaan/Rails/Blog/db/migrate/20151214143633_create_users.rb",
+		"/D/Ishaan/Rails/Blog/app/assets/stylesheets/pages.scss",
+		"/D/Ishaan/Rails/Blog/app/assets/stylesheets/messages.scss",
+		"/D/Ishaan/Rails/Blog/app/assets/stylesheets/users.scss",
+		"/D/Ishaan/Rails/Blog/app/views/messages/new.html.erb",
+		"/D/Ishaan/Rails/Blog/db/migrate/20151214065415_create_messages.rb",
+		"/D/Ishaan/Rails/Blog/app/views/messages/index.html.erb",
+		"/D/Ishaan/Rails/Blog/config/routes.rb",
+		"/D/Ishaan/Rails/Blog/app/views/pages/home.html.erb",
+		"/D/Ishaan/Rails/Blog/app/controllers/pages_controller.rb",
+		"/D/Ishaan/Rails/Blog/app/models/message.rb",
+		"/D/Ishaan/Rails/Blog/config/database.yml",
+		"/D/Ishaan/Rails/Blog/db/seeds.rb",
+		"/D/Ishaan/Rails/simple_cms/test/test_helper.rb",
+		"/D/Ishaan/Rails/simple_cms/db/schema.rb",
+		"/D/Ishaan/Rails/simple_cms/config/routes.rb",
+		"/D/Ishaan/Rails/simple_cms/app/views/demo/index.html.erb",
+		"/D/Ishaan/Rails/simple_cms/app/views/demo/hello.html.erb",
+		"/D/Ishaan/Rails/simple_cms/app/controllers/demo_controller.rb",
+		"/D/Ishaan/Rails/demo/config/database.yml",
+		"/D/Ishaan/Rails/simple_cms/config/database.yml",
+		"/D/Ishaan/Rails/simple_cms/app/controllers/application_controller.rb",
+		"/D/Ishaan/Rails/simple_cms/Gemfile",
+		"/D/Ishaan/Rails/simple_cms/Rakefile",
+		"/D/Ishaan/Rails/simple_cms/Gemfile.lock",
+		"/D/Ishaan/Rails/library/config/routes.rb",
+		"/D/Ishaan/Rails/library/app/views/layouts/application.html.erb",
+		"/D/Ishaan/Rails/library/config/database.yml",
+		"/D/Ishaan/Coding/TryDjango/venv/src/TryDjango/urls.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/TryDjango/settings.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/templates/home.html",
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/forms.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/admin.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/models.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/views.py",
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/templates/home.html",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/linearRegCostFunction.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/polyFeatures.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/learningCurve.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/trainLinearReg.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/validationCurve.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/ex5.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/featureNormalize.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/computeCost.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/machine-learning-ex5/ex5/linearRegCostFunction.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/computeCostMulti.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex2/machine-learning-ex2/ex2/costFunctionReg.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/featureNormalize.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/lrCostFunction.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/sigmoidGradient.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/randInitializeWeights.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/checkNNGradients.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/ex4.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/nnCostFunction.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/oneVsAll.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/sigmoid.m",
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/sigmoid.m",
+		"/C/Users/Lenovo/Desktop/CN/TCPServer.java",
+		"/C/Users/Lenovo/Desktop/CN/UDPServer.java",
+		"/C/Users/Lenovo/Desktop/CN/UDPClient.java"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Ishaan\\Rails\\Article"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"passenger",
+			"delete",
+			"Fix those typos",
+			"VESIT",
+			"btn",
+			"button",
+			"next",
+			"ul",
+			"pager",
+			"action_pack",
+			"height",
+			">\n",
+			"article_entries",
+			"delete",
+			"content",
+			"container",
+			"class-pager",
+			"navbar-header",
+			">\n",
+			"post-meta",
+			"navbar-brand",
+			"subheading",
+			"title",
+			"a",
+			"posted_at",
+			"</head>",
+			"\n<head>\n  <title></title>\n</head>",
+			"/messages",
+			"welcome'",
+			"@message",
+			"\n",
+			"timestamp",
+			"cost",
+			"clockphit",
+			"lfu",
+			"count",
+			"clock",
+			"div",
+			"emailExp",
+			"        \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"LFU",
+			"frames",
+			"clockp"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Ishaan/Rails/Blog/config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Ishaan/Rails/Blog_project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}
