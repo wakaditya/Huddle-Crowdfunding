@@ -195,6 +195,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "home.html.erb",
+			"settings":
+			{
+				"buffer_size": 56,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/welcome_controller.rb",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/README.rdoc",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -202,6 +234,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"lin",
+				"Snippet: link_to (path)"
+			],
+			[
+				"link",
+				"Snippet: link_to (path)"
+			],
 			[
 				"tag",
 				"HTML: Wrap Selection With Tag"
@@ -211,20 +251,12 @@
 				"Snippet: link_to (path)"
 			],
 			[
-				"link",
-				"Snippet: link_to (path)"
-			],
-			[
 				"LINK",
 				"Snippet: link_to (path)"
 			],
 			[
 				"html tag",
 				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"lin",
-				"Snippet: link_to (path)"
 			],
 			[
 				"html p",
@@ -295,7 +327,7 @@
 				"Snippet: html"
 			]
 		],
-		"width": 500.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -518,8 +550,115 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "home.html.erb",
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/welcome_controller.rb",
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/README.rdoc",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
