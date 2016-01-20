@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"crea",
+				"create"
+			],
+			[
+				"navba",
+				"navbar-right"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
 				"Arti",
 				"ArticleEntry"
 			],
@@ -196,10 +212,26 @@
 	"buffers":
 	[
 		{
-			"file": "home.html.erb",
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 56,
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/views/users/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1572,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,23 +239,31 @@
 			"file": "/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1637,
+				"buffer_size": 1788,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/welcome_controller.rb",
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/views/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 68,
+				"buffer_size": 648,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/Ishaan/College work/Sem 6/Project/Site/README.rdoc",
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 334,
+				"buffer_size": 443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 335,
 				"line_ending": "Unix"
 			}
 		}
@@ -231,15 +271,47 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 272.0,
 		"selected_items":
 		[
 			[
-				"lin",
+				"link",
 				"Snippet: link_to (path)"
 			],
 			[
-				"link",
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"subit",
+				"Snippet: submit_tag"
+			],
+			[
+				"text",
+				"Snippet: f.text_field (fftf)"
+			],
+			[
+				"form_tag",
+				"Snippet: form_tag"
+			],
+			[
+				"textfield",
+				"Snippet: f.text_field (fftf)"
+			],
+			[
+				"label",
+				"Snippet: form_for label"
+			],
+			[
+				"form",
+				"Snippet: form_tag"
+			],
+			[
+				"lin",
 				"Snippet: link_to (path)"
 			],
 			[
@@ -261,10 +333,6 @@
 			[
 				"html p",
 				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"form",
-				"Snippet: form_for"
 			],
 			[
 				"section",
@@ -344,6 +412,24 @@
 	},
 	"file_history":
 	[
+		"/D/Ishaan/College work/Sem 6/Project/Site/db/migrate/20160119182223_create_users.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/db/seeds.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/layouts/application.html.erb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/Gemfile",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/welcome/home.html.erb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/Gemfile.lock",
+		"/D/Ishaan/College work/Sem 6/Project/Site/db/migrate/20160117112727_create_events.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/db/schema.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/events/index.html.erb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/events/_form.html.erb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/events/show.html.erb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/events/show.json.jbuilder",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/events/index.json.jbuilder",
+		"/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/README.rdoc",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/welcome_controller.rb",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/assets/javascripts/application.js",
+		"/D/Ishaan/College work/Sem 6/Project/Site/app/assets/stylesheets/application.css.scss",
 		"/D/Ishaan/College work/Sem 6/Project/Site/config/database.yml",
 		"/D/Ishaan/Rails/Article/Gemfile",
 		"/D/Ishaan/Rails/Article/.env",
@@ -453,25 +539,7 @@
 		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/learningCurve.m",
 		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/trainLinearReg.m",
 		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/validationCurve.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/ex5.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/featureNormalize.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/computeCost.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/machine-learning-ex5/ex5/linearRegCostFunction.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/computeCostMulti.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex2/machine-learning-ex2/ex2/costFunctionReg.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex1/machine-learning-ex1/ex1/featureNormalize.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/lrCostFunction.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/sigmoidGradient.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/randInitializeWeights.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/checkNNGradients.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/ex4.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/nnCostFunction.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/oneVsAll.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex4/machine-learning-ex4/ex4/sigmoid.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex3/machine-learning-ex3/ex3/sigmoid.m",
-		"/C/Users/Lenovo/Desktop/CN/TCPServer.java",
-		"/C/Users/Lenovo/Desktop/CN/UDPServer.java",
-		"/C/Users/Lenovo/Desktop/CN/UDPClient.java"
+		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/ex5.m"
 	],
 	"find":
 	{
@@ -490,6 +558,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"type",
 			"passenger",
 			"delete",
 			"Fix those typos",
@@ -537,6 +606,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"category",
 			"LFU",
 			"frames",
 			"clockp"
@@ -550,28 +620,28 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "home.html.erb",
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 56,
+						"buffer_size": 233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								233,
+								233
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -581,18 +651,73 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 1637,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								292,
-								292
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/views/users/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 1572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
 							]
 						],
 						"settings":
@@ -608,24 +733,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/welcome_controller.rb",
+					"buffer": 4,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/views/sessions/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 68,
+						"buffer_size": 648,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								415,
+								415
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -634,24 +759,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/D/Ishaan/College work/Sem 6/Project/Site/README.rdoc",
+					"buffer": 5,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 334,
+						"buffer_size": 443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								431,
+								431
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/Ishaan/College work/Sem 6/Project/Site/app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -726,6 +879,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true
 }

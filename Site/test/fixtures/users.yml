@@ -1,13 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  adress: MyString
   email: MyString
-  phone_no: MyString
+  password_digest: MyString
+  name: MyString
+  contact: 1
+  category: 1
 
 two:
-  name: MyString
-  adress: MyString
   email: MyString
-  phone_no: MyString
+  password_digest: MyString
+  name: MyString
+  contact: 1
+  category: 1
