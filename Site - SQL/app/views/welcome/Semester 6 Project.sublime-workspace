@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"file",
+				"file_path"
+			],
+			[
+				"Co",
+				"collection"
+			],
+			[
+				"mongo",
+				"mongodb"
+			],
+			[
+				"re",
+				"reqg-	require_gem \"..\""
+			],
+			[
 				"pass",
 				"password_confirmation"
 			],
@@ -78,10 +94,6 @@
 			[
 				"creat",
 				"created"
-			],
-			[
-				"re",
-				"redirect_to"
 			],
 			[
 				"mess",
@@ -412,6 +424,14 @@
 	},
 	"file_history":
 	[
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson02-CRUD/solution/assignment.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson02-CRUD/student-start/assignment.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson02-CRUD/student-start/spec/lecture2_spec.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson02-CRUD/solution/spec/lecture2_spec.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson02-CRUD/solution/spec/lecture1_spec.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson01-MongoDB-Connection/student-start/assignment.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson01-MongoDB-Connection/solution/assignment.rb",
+		"/D/Ishaan/Courses/Integration of MongoDB with Rails - Coursera - JHU/fullstack-course3-module1/Assignments/Lesson01-MongoDB-Connection/student-start/spec/assignment_spec.rb",
 		"/D/Ishaan/College work/Sem 6/Project/Site/db/migrate/20160119182223_create_users.rb",
 		"/D/Ishaan/College work/Sem 6/Project/Site/db/seeds.rb",
 		"/D/Ishaan/College work/Sem 6/Project/Site/app/views/layouts/application.html.erb",
@@ -531,15 +551,7 @@
 		"/D/Ishaan/Coding/TryDjango/venv/src/templates/home.html",
 		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/forms.py",
 		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/admin.py",
-		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/models.py",
-		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/views.py",
-		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/templates/home.html",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/linearRegCostFunction.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/polyFeatures.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/learningCurve.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/trainLinearReg.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/validationCurve.m",
-		"/D/Ishaan/Courses/Machine Learning - Andrew Ng/machine-learning-ex5/ex5/ex5.m"
+		"/D/Ishaan/Coding/TryDjango/venv/src/newsletter/models.py"
 	],
 	"find":
 	{
@@ -880,7 +892,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 222.0,
 	"status_bar_visible": true
 }

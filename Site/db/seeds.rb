@@ -5,4 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-events = Event.create(name: 'Sonic Highways', category: 'Music', funding_deadline: '12/02/2016', funding_goal: 23000, collections: 0, user: nil)

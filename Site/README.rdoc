@@ -1,11 +1,28 @@
 == README
 
-To run the application:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-1. download ruby: http://rubyinstaller.org/
-2. download rails: open cmd, type 'gem install rails'
-3. Install mysql: http://dev.mysql.com/downloads/mysql/
-4. go to the 'Site' folder within cmd. 
-5. Type 'rake db:migrate'
-6. Type 'rails s'
-7. go to 'localhost:3000' in chrome or any other web browser
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

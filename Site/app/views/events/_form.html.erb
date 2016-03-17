@@ -1,69 +1,49 @@
-<%= form_for @event, :html => { :class => "form-horizontal event" } do |f| %>
-
+<%= form_for(@event) do |f| %>
   <% if @event.errors.any? %>
-    <div id="error_expl" class="panel panel-danger">
-      <div class="panel-heading">
-        <h3 class="panel-title"><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h3>
-      </div>
-      <div class="panel-body">
-        <ul>
-        <% @event.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-        </ul>
-      </div>
+    <div id="error_explanation">
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @event.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
     </div>
   <% end %>
 
-  <div class="form-group">
-    <%= f.label :name, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :name, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:name) %>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
   </div>
-  <div class="form-group">
-    <%= f.label :category, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :category, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:category) %>
+  <div class="field">
+    <%= f.label :event_tag %><br>
+    <%= f.text_field :tag %>
   </div>
-  <div class="form-group">
-    <%= f.label :funding_deadline, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :funding_deadline, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:funding_deadline) %>
+  <div class="field">
+    <%= f.label :collection %><br>
+    <%= f.text_field :c %>
   </div>
-  <div class="form-group">
-    <%= f.label :funding_goal, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :funding_goal, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:funding_goal) %>
+  <div class="field">
+    <%= f.label :event_deadline %><br>
+    <%= f.text_field :dline %>
   </div>
-  <div class="form-group">
-    <%= f.label :collections, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :collections, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:collections) %>
+  <div class="field">
+    <%= f.label :event_date %><br>
+    <%= f.text_field :e_date %>
   </div>
-  <div class="form-group">
-    <%= f.label :user_id, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :user_id, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:user_id) %>
+  <div class="field">
+    <%= f.label :rate %><br>
+    <%= f.text_field :r %>
   </div>
-
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-      <%= f.submit nil, :class => 'btn btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                events_path, :class => 'btn btn-default' %>
-    </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
   </div>
-
+  <div class="field">
+    <%= f.label :ticket %><br>
+    <%= f.text_field :ticket %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
 <% end %>

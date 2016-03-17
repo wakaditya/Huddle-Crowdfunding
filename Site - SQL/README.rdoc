@@ -1,0 +1,11 @@
+== README
+
+To run the application:
+
+1. download ruby: http://rubyinstaller.org/
+2. download rails: open cmd, type 'gem install rails'
+3. Install mysql: http://dev.mysql.com/downloads/mysql/
+4. go to the 'Site' folder within cmd. 
+5. Type 'rake db:migrate'
+6. Type 'rails s'
+7. go to 'localhost:3000' in chrome or any other web browser
