@@ -28,6 +28,6 @@ This project is used to compare the performance of NoSQL and SQL Databases.
 5.	Rating events and feedback system.
 6.	Event support and backing options where you can buy tickets and fund events. - Stripe API
 
-Spiral 3:
+###Spiral 3:
 1.	Recommendation system. Based on your past attended events the system will recommend you the events to be attended.
 2.	Discussion Forum­. A discussion forum is provided where users can discuss among themselves about what they expect from an event.
