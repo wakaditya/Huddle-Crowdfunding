@@ -3,7 +3,12 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'events#index'
+  root 'home#show'
+
+  Some::Application.routes.draw do
+    mount Peek::Railtie => '/peek'
+    root :to => 'home#show'
+  end
 
   resources :events
   resources :users
