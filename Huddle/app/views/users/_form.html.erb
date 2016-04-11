@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= f.label :address %><br>
-    <%= f.text_field :add %>
+    <%= f.text_field :address %>
   </div>
   <div class="field">
     <%= f.label :name %><br>
@@ -21,15 +21,19 @@
   </div>
   <div class="field">
     <%= f.label :email %><br>
-    <%= f.email_field :email %>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br>
+    <%= f.text_field :password %>
   </div>
   <div class="field">
     <%= f.label :contact %><br>
-    <%= f.telephone_field :contact %>
+    <%= f.text_field :contact %>
   </div>
   <div class="field">
-    <%= f.label :pwd %><br>
-    <%= f.password_field :pwd %>
+    <%= f.label :perks_id %><br>
+    <%= f.text_field :perks_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Paid amount:</strong>
+  <%= @backer.paid_amount %>
+</p>
+
+<p>
+  <strong>Perk level:</strong>
+  <%= @backer.perk_level %>
+</p>
+
+<%= link_to 'Edit', edit_backer_path(@backer) %> |
+<%= link_to 'Back', backers_path %>

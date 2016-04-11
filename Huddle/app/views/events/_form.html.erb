@@ -16,24 +16,24 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :event_tag %><br>
+    <%= f.label :tag %><br>
     <%= f.text_field :tag %>
   </div>
   <div class="field">
     <%= f.label :collection %><br>
-    <%= f.text_field :c %>
+    <%= f.text_field :collection %>
   </div>
   <div class="field">
-    <%= f.label :event_deadline %><br>
-    <%= f.text_field :dline %>
+    <%= f.label :funding_deadline %><br>
+    <%= f.text_field :funding_deadline %>
   </div>
   <div class="field">
     <%= f.label :event_date %><br>
-    <%= f.text_field :e_date %>
+    <%= f.text_field :event_date %>
   </div>
   <div class="field">
-    <%= f.label :rate %><br>
-    <%= f.text_field :r %>
+    <%= f.label :rating %><br>
+    <%= f.text_field :rating %>
   </div>
   <div class="field">
     <%= f.label :location %><br>
@@ -42,6 +42,10 @@
   <div class="field">
     <%= f.label :ticket %><br>
     <%= f.text_field :ticket %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

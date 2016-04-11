@@ -7,12 +7,13 @@
     <tr>
       <th>Name</th>
       <th>Tag</th>
-      <th>C</th>
-      <th>Dline</th>
-      <th>E date</th>
-      <th>R</th>
+      <th>Collection</th>
+      <th>Funding deadline</th>
+      <th>Event date</th>
+      <th>Rating</th>
       <th>Location</th>
       <th>Ticket</th>
+      <th>User</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,12 +23,13 @@
       <tr>
         <td><%= event.name %></td>
         <td><%= event.tag %></td>
-        <td><%= event.c %></td>
-        <td><%= event.dline %></td>
-        <td><%= event.e_date %></td>
-        <td><%= event.r %></td>
+        <td><%= event.collection %></td>
+        <td><%= event.funding_deadline %></td>
+        <td><%= event.event_date %></td>
+        <td><%= event.rating %></td>
         <td><%= event.location %></td>
         <td><%= event.ticket %></td>
+        <td><%= event.user %></td>
         <td><%= link_to 'Show', event %></td>
         <td><%= link_to 'Edit', edit_event_path(event) %></td>
         <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>

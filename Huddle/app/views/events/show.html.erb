@@ -11,23 +11,23 @@
 </p>
 
 <p>
-  <strong>C:</strong>
-  <%= @event.c %>
+  <strong>Collection:</strong>
+  <%= @event.collection %>
 </p>
 
 <p>
-  <strong>Dline:</strong>
-  <%= @event.dline %>
+  <strong>Funding deadline:</strong>
+  <%= @event.funding_deadline %>
 </p>
 
 <p>
-  <strong>E date:</strong>
-  <%= @event.e_date %>
+  <strong>Event date:</strong>
+  <%= @event.event_date %>
 </p>
 
 <p>
-  <strong>R:</strong>
-  <%= @event.r %>
+  <strong>Rating:</strong>
+  <%= @event.rating %>
 </p>
 
 <p>
@@ -38,6 +38,11 @@
 <p>
   <strong>Ticket:</strong>
   <%= @event.ticket %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @event.user %>
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |

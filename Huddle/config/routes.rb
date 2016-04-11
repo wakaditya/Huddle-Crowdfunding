@@ -1,17 +1,23 @@
 Rails.application.routes.draw do
+
+  root 'home#show'
+  
+  resources :backers
+  resources :perks
+  resources :users
+  resources :events
+  
+  mount Peek::Railtie => '/peek'
+  
+  get 'login' => 'sessions#new', as: :login
+  post 'login' => 'sessions#create'
+  delete 'logout' => 'sessions#destroy', as: :logout
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#show'
-
-  Some::Application.routes.draw do
-    mount Peek::Railtie => '/peek'
-    root :to => 'home#show'
-  end
-
-  resources :events
-  resources :users
+  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
