@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require peek
+//= require twitter/bootstrap
 //= require turbolinks
 //= require_tree .
+//= require peek
+//= require peek/views/performance_bar
 

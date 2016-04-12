@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
 
-  root 'home#show'
-  
-  resources :backers
   resources :perks
   resources :users
   resources :events
+  root 'home#show'
+  
+  resources :backers
   
   mount Peek::Railtie => '/peek'
   

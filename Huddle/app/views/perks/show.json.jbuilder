@@ -1,1 +1,1 @@
-json.extract! @perk, :id, :amount, :type, :created_at, :updated_at
+json.extract! @perk, :id, :amount, :p_type, :description, :created_at, :updated_at

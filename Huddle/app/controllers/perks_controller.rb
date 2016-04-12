@@ -69,6 +69,6 @@ class PerksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def perk_params
-      params.require(:perk).permit(:amount, :type)
+      params.require(:perk).permit(:amount, :p_type, :description)
     end
 end

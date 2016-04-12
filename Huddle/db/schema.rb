@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160411175604) do
+ActiveRecord::Schema.define(version: 20160412035534) do
 
   create_table "backers", force: :cascade do |t|
     t.integer  "paid_amount", limit: 4
@@ -22,22 +22,36 @@ ActiveRecord::Schema.define(version: 20160411175604) do
     t.datetime "updated_at",            null: false
   end
 
+  create_table "events", force: :cascade do |t|
+    t.string   "name",             limit: 255
+    t.string   "tag",              limit: 255
+    t.float    "collection",       limit: 24
+    t.datetime "funding_deadline"
+    t.date     "event_date"
+    t.integer  "rating",           limit: 4
+    t.string   "location",         limit: 255
+    t.string   "ticket",           limit: 255
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
+  end
+
   create_table "perks", force: :cascade do |t|
-    t.float    "amount",     limit: 24
-    t.integer  "type",       limit: 4
-    t.integer  "user_id",    limit: 4
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.float    "amount",      limit: 24
+    t.integer  "p_type",      limit: 4
+    t.string   "description", limit: 255
+    t.integer  "user_id",     limit: 4
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "address",    limit: 255
-    t.string   "name",       limit: 255
-    t.string   "email",      limit: 255
-    t.string   "password",   limit: 255
-    t.string   "contact",    limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.string   "address",         limit: 255
+    t.string   "name",            limit: 255
+    t.string   "email",           limit: 255
+    t.string   "contact",         limit: 255
+    t.string   "password_digest", limit: 255
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
   end
 
 end

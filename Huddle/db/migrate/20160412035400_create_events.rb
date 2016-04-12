@@ -9,7 +9,7 @@ class CreateEvents < ActiveRecord::Migration
       t.integer :rating
       t.string :location
       t.string :ticket
-      
+
       t.timestamps null: false
     end
   end
