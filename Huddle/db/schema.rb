@@ -13,45 +13,48 @@
 
 ActiveRecord::Schema.define(version: 20160412035534) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "backers", force: :cascade do |t|
-    t.integer  "paid_amount", limit: 4
-    t.integer  "perk_level",  limit: 4
-    t.integer  "user_id",     limit: 4
-    t.integer  "event_id",    limit: 4
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.integer  "paid_amount"
+    t.integer  "perk_level"
+    t.integer  "user_id"
+    t.integer  "event_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "events", force: :cascade do |t|
-    t.string   "name",             limit: 255
-    t.string   "tag",              limit: 255
-    t.float    "collection",       limit: 24
+    t.string   "name"
+    t.string   "tag"
+    t.float    "collection"
     t.datetime "funding_deadline"
     t.date     "event_date"
-    t.integer  "rating",           limit: 4
-    t.string   "location",         limit: 255
-    t.string   "ticket",           limit: 255
-    t.datetime "created_at",                   null: false
-    t.datetime "updated_at",                   null: false
+    t.integer  "rating"
+    t.string   "location"
+    t.string   "ticket"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "perks", force: :cascade do |t|
-    t.float    "amount",      limit: 24
-    t.integer  "p_type",      limit: 4
-    t.string   "description", limit: 255
-    t.integer  "user_id",     limit: 4
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.float    "amount"
+    t.integer  "p_type"
+    t.string   "description"
+    t.integer  "user_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "address",         limit: 255
-    t.string   "name",            limit: 255
-    t.string   "email",           limit: 255
-    t.string   "contact",         limit: 255
-    t.string   "password_digest", limit: 255
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
+    t.string   "address"
+    t.string   "name"
+    t.string   "email"
+    t.string   "contact"
+    t.string   "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end

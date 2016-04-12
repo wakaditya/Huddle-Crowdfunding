@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# Sprockets for rails asset pipeline
+gem 'sprockets-rails'
 
 gem 'twitter-bootstrap-rails'
 # Use ActiveModel has_secure_password
@@ -35,10 +37,14 @@ gem 'peek-performance_bar'
 gem 'peek-mysql2'
 
 # Use Unicorn as the app server
+#Octopus for database sharding
+gem 'ar-octopus'
 # gem 'unicorn'
 gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#SITEMAP GENERATOR GEM, INSTALLED SEPARATELY
+#gem 'sitemap_generator'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
