@@ -8,6 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+ /* global classie*/
 var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
@@ -26,6 +27,7 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
+		header = document.querySelector( '.navbar-fixed-top' );
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
 		}

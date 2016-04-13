@@ -14,7 +14,10 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
+//= require jquery.easing.min
 //= require_tree .
+//= require classie
+//= require cbpAnimatedHeader
 //= require peek
 //= require peek/views/performance_bar
 

@@ -53,7 +53,7 @@
   <div class="form-group">
     <%= f.label :rating, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
-      <%= f.range_field :rating, :in => 1.0...10.0, :class => 'form-control' %>
+      <%= f.range_field :rating, :in => 1.0..10.0, :class => 'form-control' %>
     </div>
     <%=f.error_span(:rating) %>
   </div>

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :perks
   resources :users
   resources :events
-  root 'home#show'
+  root 'home#welcome'
   
   resources :backers
   
