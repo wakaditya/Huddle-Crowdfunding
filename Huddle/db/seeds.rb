@@ -14,7 +14,7 @@ User.create(address:'BARC',name:'Kinjal Chavda', email:'kinjal.chavda@ves.ac.in'
 User.create(address:'Navi Mumbai',name:'Aditya Wakade', email:'aditya.wakade@ves.ac.in',contact:'9404335522', password: User.digest('aditya') )
 User.create(address:'Powai',name:'Ishaan Malhi', email:'ishaan.malhi@ves.ac.in',contact:'9004335532', password: User.digest('ishaan') )
 5.times do |i|
-    User.create(address:'location#{1}',name:'User#{i}', email:'student#{1}.name#{1}@ves.ac.in',contact:'900433553#{i}', password: User.digest('user#{i}') )
+    User.create(address:'location#{i}',name:'User#{i}', email:'student#{1}.name#{1}@ves.ac.in',contact:'900433553#{i}', password: User.digest('user#{i}') )
 end
 Event.create(name:'Octaves',tag: 'Music', collection: 35000, funding_deadline: '2016-08-3', event_date: '2016-07-04', rating: 10, location:'Chembur', ticket: "Offline - On day")
 #Random Test Data
