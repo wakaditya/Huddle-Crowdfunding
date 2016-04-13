@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <!-- Contact Form JavaScript -->
+  <%= javascript_include_tag "js/jqBootstrapValidation.js", 'data-turbolinks-track' => true  %>
+  <%= javascript_include_tag "js/contact_me.js", 'data-turbolinks-track' => true %>
+  <!-- Custom Theme JavaScript -->
+  <%= javascript_include_tag "js/agency.js", 'data-turbolinks-track' => true %>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <%= yield :header %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="page-top" class="index">
+<%= render 'peek/bar' %>
 
-<%= yield %>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <%= link_to "Huddle", root_path(anchor: "page-top"), class: "navbar-brand page-scroll" %>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <% if logged_in? %>
+                    <li>
+                        <%= link_to "Log Out", logout_path, method: :destroy, :class => "page-scroll" %>
+                    </li>
+                    <% else %>
+                    <li>
+                        <%= link_to "Sign Up", new_user_path, :class => "page-scroll" %>
+                    </li>
+                    <li>
+                        <%= link_to "Log In", login_path, :class => "page-scroll" %>
+                    </li>
+                    <% end %>
+                    <li>
+                      <%= link_to "About", root_path(anchor: "about"), class: "page-scroll" %>
+                    </li>
+                    <li>
+                      <%= link_to "Team", root_path(anchor: "team"), class: "page-scroll" %>
+                    </li>
+                    <li>
+                      <%= link_to "Contact", root_path(anchor: "contact"), class: "page-scroll" %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<div class="container">
+  <%= yield %>
+</div>
+<%= yield :home_page %>
 </body>
 </html>

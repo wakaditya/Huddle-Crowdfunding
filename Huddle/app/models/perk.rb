@@ -1,6 +1,2 @@
-class Perk
-	attr_accessor :type, :amount
-	def initialize(args)
-		
-	end
+class Perk < ActiveRecord::Base
 end
