@@ -40,7 +40,6 @@ GEM
       activerecord (>= 3.2.0)
       activesupport (>= 3.2.0)
     arel (6.0.3)
-    atomic (1.1.99)
     bcrypt (3.1.11)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -94,7 +93,6 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
-    mysql2 (0.4.3)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     peek (0.2.0)
@@ -104,12 +102,13 @@ GEM
       railties (>= 3.0.0)
     peek-git (1.0.2)
       peek
-    peek-mysql2 (1.1.0)
-      atomic (>= 1.0.0)
-      mysql2
-      peek
     peek-performance_bar (1.2.1)
       peek (>= 0.1.0)
+    peek-pg (1.2.0)
+      concurrent-ruby
+      concurrent-ruby-ext
+      peek
+      pg
     pg (0.18.4)
     puma (3.4.0)
     rack (1.6.4)
@@ -210,8 +209,8 @@ DEPENDENCIES
   jquery-rails
   peek
   peek-git
-  peek-mysql2
   peek-performance_bar
+  peek-pg
   pg
   puma
   rails (= 4.2.5)

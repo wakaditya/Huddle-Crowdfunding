@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :perks
   resources :users
+  resources :perks
   resources :events
   root 'home#welcome'
   

@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
 Perk.create(amount: 3000, p_type: 3)
 Perk.create(amount: 1500, p_type: 1)
 Perk.create(amount: 300, p_type: 2)

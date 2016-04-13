@@ -15,8 +15,12 @@
   <%= javascript_include_tag "js/contact_me.js", 'data-turbolinks-track' => true %>
   <!-- Custom Theme JavaScript -->
   <%= javascript_include_tag "js/agency.js", 'data-turbolinks-track' => true %>
-  
-  <%= yield(:header) if @content_for_header %>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <%= yield :header %>
   <%= csrf_meta_tags %>
 </head>
 <body id="page-top" class="index">
@@ -33,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Huddle</a>
+                <%= link_to "Huddle", root_path(anchor: "page-top"), class: "navbar-brand page-scroll" %>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,5 +76,6 @@
 <div class="container">
   <%= yield %>
 </div>
+<%= yield :home_page %>
 </body>
 </html>
