@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   
   mount Peek::Railtie => '/peek'
   
-  get 'login' => 'sessions#new', as: :login
+  get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
-  delete 'logout' => 'sessions#destroy', as: :logout
+  get 'logout' => 'sessions#destroy'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

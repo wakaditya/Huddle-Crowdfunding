@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'agency', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <!-- Contact Form JavaScript -->
   <%= javascript_include_tag "js/jqBootstrapValidation.js", 'data-turbolinks-track' => true  %>
@@ -48,7 +48,7 @@
                     </li>
                     <% if logged_in? %>
                     <li>
-                        <%= link_to "Log Out", logout_path, :class => "page-scroll" %>
+                        <%= link_to "Log Out", logout_path, method: :destroy, :class => "page-scroll" %>
                     </li>
                     <% else %>
                     <li>
