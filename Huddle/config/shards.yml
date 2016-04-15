@@ -2,15 +2,10 @@ octopus:
   environments:
     - development
   development:
-    mumbai:
-      username: postgres
-      password: ishaan
-      host:     <%= ENV['IP'] %>
-      adapter: postgresql
-      database: mumbai_shard
-    delhi:
-      username: postgres
-      password: ishaan
-      host:     <%= ENV['IP'] %>
-      adapter: postgresql
-      database: delhi_shard
+    shards:
+      mumbai_shard:
+        username: postgres
+        password: ishaan
+        host:     <%= ENV['IP'] %>
+        adapter: postgresql
+        database: mumbai_shard

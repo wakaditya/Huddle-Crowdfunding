@@ -1,11 +1,17 @@
 Rails.application.routes.draw do
 
-  resources :users
+  resources :users do
+    resources :events do
+      resources :backers, except: [:update]
+    end
+  end
   resources :perks
-  resources :events
-  root 'home#welcome'
   
-  resources :backers
+  resources :events do
+    resources :backers, only: [:show]
+  end
+  
+  root 'home#welcome'
   
   mount Peek::Railtie => '/peek'
   

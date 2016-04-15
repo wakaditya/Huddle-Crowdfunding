@@ -5,20 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
+=begin
 Perk.create(amount: 3000, p_type: 3)
 Perk.create(amount: 1500, p_type: 1)
 Perk.create(amount: 300, p_type: 2)
 Perk.create(amount: 200, p_type: 4)
-User.create(address:'BARC',name:'Kinjal Chavda', email:'kinjal.chavda@ves.ac.in',contact:'9004335522', password: User.digest('kinjal') )
-User.create(address:'Navi Mumbai',name:'Aditya Wakade', email:'aditya.wakade@ves.ac.in',contact:'9404335522', password: User.digest('aditya') )
-User.create(address:'Powai',name:'Ishaan Malhi', email:'ishaan.malhi@ves.ac.in',contact:'9004335532', password: User.digest('ishaan') )
+=end
 5.times do |i|
-    User.create(address:'location#{i}',name:'User#{i}', email:'student#{1}.name#{1}@ves.ac.in',contact:'900433553#{i}', password: User.digest('user#{i}') )
+    User.create(address:"location#{i}",name:"User#{i}", email:"student#{i}.namei@ves.ac.in",contact:"90043355#{i}", password: User.digest("user#{i}") )
 end
-Event.create(name:'Octaves',tag: 'Music', collection: 35000, funding_deadline: '2016-08-3', event_date: '2016-07-04', rating: 10, location:'Chembur', ticket: "Offline - On day")
+=begin
+Event.using(:mumbai_shard).create!(name:'Octaves',tag: 'Music', collection: 35000, funding_deadline: '2016-08-3', event_date: '2016-07-04', rating: 10, location:'Mumbai', ticket: "Offline - On day")
 #Random Test Data
-Event.create(   name: "Praxis",
+Event.using(:mumbai_shard).create(   name: "Praxis",
                 tag: "College Techfest",
                 collection: "0",
                 funding_deadline: "2009-08-03T12:15:29.792Z",
@@ -37,7 +36,7 @@ Event.create(
                 location: "Kochi, India",
                 ticket:"Offline - 5 days"
                 )
-Event.create(
+Event.using(:mumbai_shard).create(
                 name: "Amazon Cloud Computing Conference",
                 tag: "Web Services Conference",
                 collection: "900000",
@@ -118,3 +117,4 @@ Event.create(
                   location: "Grover",
                   ticket: "Never"
                 )
+=end

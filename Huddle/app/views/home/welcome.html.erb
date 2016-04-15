@@ -361,7 +361,10 @@
                                 <li>Tickets: <%= event.ticket %></li>
                                 <li>Community Rating: <%= event.rating %>/10</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <%= link_to_if(!logged_in?, "Sign Up to back this Event", { controller: "users", action: "new" }, { class: "btn btn-primary"}) do %>
+                                    <%= link_to "Back this Event", new_user_event_backer_path(current_user.id, event.id), :class => "btn btn-primary" %>
+                                <% end %>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close This View</button>
                         </div>
                     </div>
                 </div>

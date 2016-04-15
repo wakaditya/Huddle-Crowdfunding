@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
-  before_action :set_event, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_event,:set_shard, only: [:show, :edit, :update, :destroy]
+  before_action :check_login, only: [:update, :destroy, :create, :edit, :new]
   # GET /events
   # GET /events.json
   def index
@@ -27,24 +27,13 @@ class EventsController < ApplicationController
     @event = Event.new(event_params)
   
     respond_to do |format|
-=begin      
-      if @event.location.eql? 'Mumbai'
-        if @event.using(:mumbai).save
-          format.html { redirect_to @event, notice: 'Event was successfully created.' }
-          format.json { render :show, status: :created, location: @event }
-        else
-          format.html { render :new }
-          format.json { render json: @event.errors, status: :unprocessable_entity }
-        end
-=end
-        if @event.save
-          format.html { redirect_to @event, notice: 'Event was successfully created.' }
-          format.json { render :show, status: :created, location: @event }
-        else
-          format.html { render :new }
-          format.json { render json: @event.errors, status: :unprocessable_entity }
-        end
-    #  end
+      if @event.save
+        format.html { redirect_to @event, notice: 'Event was successfully created.' }
+        format.json { render :show, status: :created, location: @event }
+      else
+        format.html { render :new }
+        format.json { render json: @event.errors, status: :unprocessable_entity }
+      end
     end
   end
 
@@ -81,5 +70,17 @@ class EventsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
       params.require(:event).permit(:name, :tag, :collection, :funding_deadline, :event_date, :rating, :location, :ticket)
+    end
+    
+    def set_shard
+      if !/[\w,]*\s(M|m)umbai[\w\s]*/i.match(@event.location).nil?
+        using(:mumbai_shard)
+      end
+    end
+    
+    def check_login
+      if !logged_in?
+        redirect_to new_user_path, notice: "You need to Sign Up First!"
+      end
     end
 end
