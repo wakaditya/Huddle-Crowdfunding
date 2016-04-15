@@ -1,5 +1,5 @@
 class BackersController < ApplicationController
-  before_action :set_backer, only: [:show, :edit, :destroy]
+  before_action :set_backer,:set_user,:set_event, only: [:show, :destroy]
   
   # GET /backers
   # GET /backers.json
@@ -16,15 +16,16 @@ class BackersController < ApplicationController
   def new
     @backer = Backer.new
   end
-
-  # GET /backers/1/edit
-  def edit
-  end
-
+  
   # POST /backers
   # POST /backers.json
   def create
-    @backer = Backer.new(backer_params)
+    @backer = Backer.new
+    @backer.user = @user
+    @backer.event = @event
+    @backer.paid_amount = params[:backer][:paid_amount]
+    
+    @backer.perk_level = calc_perk_level @backer.paid_amount
 
     respond_to do |format|
       if @backer.save
@@ -49,9 +50,26 @@ class BackersController < ApplicationController
     def set_backer
       @backer = Backer.find(params[:id])
     end
-
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def backer_params
-      params.require(:backer).permit(:paid_amount, :user_id, :event_id)
+    
+    def set_user
+      @user = User.find(params[:user_id]) 
+    end
+    
+    def set_event
+      if !Event.exists? id: params[:event_id]
+        @event = Event.using(:mumbai_shard).find(params[:event_id])
+      else
+        @event = Event.find(params[:event_id])
+      end
+    end
+    
+    def calc_perk_level(amount)
+      case amount
+          when 1..100 then 1
+          when 101..1000 then 2
+          when 1001..5000 then 3
+          when 5001..10000 then 4
+          else 0
+      end
     end
 end

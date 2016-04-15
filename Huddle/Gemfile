@@ -41,7 +41,7 @@ gem 'peek-pg'
 
 # Use Unicorn as the app server
 #Octopus for database sharding
-gem 'ar-octopus'
+gem 'ar-octopus', '0.0.12', :require => "octopus"
 # gem 'unicorn'
 gem 'puma'
 # Use Capistrano for deployment
