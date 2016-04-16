@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
-    has_secure_password
+  has_secure_password
     has_many :perks
-    has_many :events
+    has_many :events, through: :backers
     
     def User.digest(string)
       cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
