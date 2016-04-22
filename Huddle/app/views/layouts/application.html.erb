@@ -75,15 +75,15 @@
         <!-- /.container-fluid -->
     </nav>
     <% if !flash.nil? %>
-    <div class="warning">
         <% flash.each do |key, value| %>
             <div class="alert alert-<%= key %>"><%= value %></div>
         <% end %>
-    </div>
     <% end %>
 <div class="container">
   <%= yield %>
 </div>
+<!--Not putting the below yield in a div, so that the background gif covers full page-->
 <%= yield :home_page %>
+
 </body>
 </html>

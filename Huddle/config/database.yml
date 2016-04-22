@@ -19,7 +19,7 @@ development:
   database: Huddle_Development
   username: postgres
   password: ishaan
-  host:     <%= ENV['IP'] %>
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

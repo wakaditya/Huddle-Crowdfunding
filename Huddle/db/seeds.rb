@@ -5,19 +5,16 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-=begin
 Perk.create(amount: 3000, p_type: 3)
 Perk.create(amount: 1500, p_type: 1)
 Perk.create(amount: 300, p_type: 2)
 Perk.create(amount: 200, p_type: 4)
-=end
 5.times do |i|
     User.create(address:"location#{i}",name:"User#{i}", email:"student#{i}.namei@ves.ac.in",contact:"90043355#{i}", password: User.digest("user#{i}") )
 end
-=begin
-Event.using(:mumbai_shard).create!(name:'Octaves',tag: 'Music', collection: 35000, funding_deadline: '2016-08-3', event_date: '2016-07-04', rating: 10, location:'Mumbai', ticket: "Offline - On day")
+Event.create!(name:'Octaves',tag: 'Music', collection: 35000, funding_deadline: '2016-08-3', event_date: '2016-07-04', rating: 10, location:'Mumbai', ticket: "Offline - On day")
 #Random Test Data
-Event.using(:mumbai_shard).create(   name: "Praxis",
+Event.create(   name: "Praxis",
                 tag: "College Techfest",
                 collection: "0",
                 funding_deadline: "2009-08-03T12:15:29.792Z",
@@ -36,7 +33,7 @@ Event.create(
                 location: "Kochi, India",
                 ticket:"Offline - 5 days"
                 )
-Event.using(:mumbai_shard).create(
+Event.create(
                 name: "Amazon Cloud Computing Conference",
                 tag: "Web Services Conference",
                 collection: "900000",
@@ -117,4 +114,3 @@ Event.create(
                   location: "Grover",
                   ticket: "Never"
                 )
-=end
