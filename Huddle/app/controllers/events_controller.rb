@@ -4,7 +4,7 @@ class EventsController < ApplicationController
   # GET /events
   # GET /events.json
   def index
-    @events = Event.all + Event.using(:mumbai_shard).all
+    @events = Event.all
   end
 
   # GET /events/1
@@ -24,23 +24,12 @@ class EventsController < ApplicationController
   # POST /events
   # POST /events.json
   def create
-    if ( /[\w\s|,]*(M|m)umbai[\w\s]*/i =~ params[:event][:location] )
-      @event = Event.using(:mumbai_shard).new(event_params)
-      respond_to do |format|
-        if @event.save
-          format.html { redirect_to @event, notice: 'Event was successfully created.' }
-        else
-          format.html { render :new }
-        end
-      end
-    else
-      @event = Event.new(event_params)
-      respond_to do |format|
-        if @event.save
-          format.html { redirect_to @event, notice: 'Event was successfully created.' }
-        else
-          format.html { render :new }
-        end
+    @event = Event.new(event_params)
+    respond_to do |format|
+      if @event.save
+        format.html { redirect_to @event, notice: 'Event was successfully created.' }
+      else
+        format.html { render :new }
       end
     end
   end
@@ -72,11 +61,7 @@ class EventsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_event
-      if Event.exists?(id: params[:id])
-        @event = Event.find(params[:id])
-      else
-        @event = Event.using(:mumbai_shard).find(params[:id])
-      end
+      @event = Event.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

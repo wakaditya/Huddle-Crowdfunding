@@ -36,8 +36,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    ar-octopus (0.0.12)
-      activerecord (>= 3.0.0beta)
     arel (6.0.3)
     bcrypt (3.1.11)
     better_errors (2.1.1)
@@ -199,7 +197,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ar-octopus (= 0.0.12)
   bcrypt (~> 3.1.7)
   better_errors
   byebug

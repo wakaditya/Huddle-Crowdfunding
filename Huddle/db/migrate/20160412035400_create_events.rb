@@ -1,5 +1,4 @@
 class CreateEvents < ActiveRecord::Migration
-  using(:master, :mumbai_shard)
   def change
     create_table :events do |t|
       t.string :name
